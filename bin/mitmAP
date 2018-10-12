@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd mitmAP 
+python3 mitmAP.py
+------------

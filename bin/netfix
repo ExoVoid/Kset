@@ -1,0 +1,10 @@
+#!/bin/bash
+
+service network-manager stop
+
+rm /etc/NetworkManager/NetworkManager.conf 
+cp /root/Kset/fix/NetworkManager.conf /etc/NetworkManager/NetworkManager.conf
+
+service network-manager start
+
+
