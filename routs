@@ -1,0 +1,6 @@
+#!/bin/bash
+cd
+cd routersploit
+git pull
+wait
+python3 rsf.py
