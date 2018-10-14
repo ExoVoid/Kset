@@ -126,6 +126,20 @@ cd routersploit
 python3 -m pip install -r requirements.txt
 wait
 fi
+
+if [ -d /root/blackeye ]; then
+ftest5=0
+else 
+ftest5=1
+fi
+
+#
+
+if [ $ftest5 = 1 ]; then
+git clone http://github.com/thelinuxchoice/blackeye.git
+wait
+fi
+
 cd
 clear
 echo "Gits Installed...Creating Custom Commands..."
